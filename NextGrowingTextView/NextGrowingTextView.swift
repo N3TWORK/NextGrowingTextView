@@ -143,6 +143,10 @@ open class NextGrowingTextView: UIScrollView {
     fitToScrollView()
   }
 
+	open func hackForceFitToScrollView() {
+		self.fitToScrollView()
+	}
+
   // MARK: UIResponder
  
   open override func reloadInputViews() {
